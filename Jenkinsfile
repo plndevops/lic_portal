@@ -27,7 +27,7 @@ pipeline {
         stage('Verify') {
             steps {
                 echo 'Checking LIC Portal service...'
-                sh 'sudo systemctl is-active --quiet lic-portal'
+                sh 'sudo systemctl is-active lic-portal'
                 sh 'curl -f http://localhost:3000'
             }
         }
