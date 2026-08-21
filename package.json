@@ -1,0 +1,30 @@
+{
+  "name": "lic_portal",
+  "version": "1.0.0",
+  "description": "A dynamic, full-stack web application designed to serve as a comprehensive portal for exploring Life Insurance Corporation (LIC) policies. The application provides a seamless experience for potential customers to filter and find policies...",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plndevops/lic_portal.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plndevops/lic_portal/issues"
+  },
+  "homepage": "https://github.com/plndevops/lic_portal#readme",
+  "dependencies": {
+    "bcryptjs": "^3.0.3",
+    "cors": "^2.8.6",
+    "dotenv": "^17.4.2",
+    "express": "^5.2.1",
+    "jsonwebtoken": "^9.0.3",
+    "mysql2": "^3.23.4",
+    "nodemailer": "^9.0.5"
+  }
+}
